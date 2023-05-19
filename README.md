@@ -13,12 +13,10 @@ Tuazon, Jaira Midel A.
 Carmelo, Mel Vincent A.
 
 ![](vertopal_9a1bedd3e06f4dcb9455e8a27e885f03/media/image1.png){width="1.917361111111111in"
-height="3.942361111111111in"}![](vertopal_9a1bedd3e06f4dcb9455e8a27e885f03/media/image2.png){width="1.9159722222222222in"
-height="3.9368055555555554in"}
+height="3.942361111111111in"}![](vertopal_9a1bedd3e06f4dcb9455e8a27e885f03/media/image2.png)
 
 ![](vertopal_9a1bedd3e06f4dcb9455e8a27e885f03/media/image3.png){width="1.8770833333333334in"
-height="3.9368055555555554in"}![](vertopal_9a1bedd3e06f4dcb9455e8a27e885f03/media/image4.png){width="1.9361111111111111in"
-height="3.9368055555555554in"}
+height="3.9368055555555554in"}![](vertopal_9a1bedd3e06f4dcb9455e8a27e885f03/media/image4.png)
 
 ![](vertopal_9a1bedd3e06f4dcb9455e8a27e885f03/media/image5.png){width="1.9118055555555555in"
 height="3.9368055555555554in"}
