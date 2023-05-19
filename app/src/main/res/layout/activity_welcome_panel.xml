@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical"
+    tools:context=".Welcome_Panel">
+
+
+    <androidx.cardview.widget.CardView
+
+        android:id="@+id/linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="3dp"
+        app:cardPreventCornerOverlap="false">
+
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/view_Pager"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            tools:ignore="MissingConstraints"></androidx.viewpager2.widget.ViewPager2>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="@font/black"
+        android:letterSpacing=".01"
+        android:text="Discover Different Dog Breeds"
+        android:textAlignment="center"
+        android:textColor="@color/text"
+        android:textSize="32sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:fontFamily="@font/wow"
+        android:letterSpacing=".01"
+        android:text="Explore vast variety of dogs that will suit your taste, find dogs that will suit your liking"
+        android:textAlignment="center"
+        android:textColor="@color/text"
+        android:textSize="16sp" />
+
+
+    <Button
+        android:id="@+id/btnClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/secondary"
+        android:drawableLeft="@drawable/arrow"
+        android:fontFamily="@font/wow"
+        android:text="LET'S GO"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

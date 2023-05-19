@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/bg">
+
+
+    <FrameLayout
+        android:id="@+id/animationContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:id="@+id/contents"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context=".BestDog">
+
+            <androidx.cardview.widget.CardView
+
+                android:id="@+id/linear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="3dp"
+                app:cardPreventCornerOverlap="false">
+
+                <ImageView
+                    android:id="@+id/ImDog"
+                    android:layout_width="350dp"
+                    android:layout_height="220dp"
+                    android:layout_gravity="center"
+                    android:scaleType="centerCrop"
+                    android:src="@color/black" />
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/btnDownload"
+                android:backgroundTint="@color/primary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="Download Image" />
+
+            <TextView
+                android:id="@+id/tvDogName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@drawable/names"
+                android:drawablePadding="10dp"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/tvMinLife"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/life"
+                android:drawablePadding="10dp"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/tvMinWeight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/weight"
+                android:drawablePadding="10dp"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/tvMinHeight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="40dp"
+                android:drawableLeft="@drawable/height"
+                android:drawablePadding="10dp"
+                android:textSize="20sp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvChildren"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="8dp"
+                        android:paddingTop="10dp"
+                        android:paddingEnd="8dp"
+                        android:text="Child-Friendly: "
+                        android:textSize="20sp" />
+
+
+                    <com.google.android.material.slider.Slider
+                        android:layout_marginHorizontal="50dp"
+                        android:id="@+id/slChildren"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:enabled="false"
+                        android:value="1"
+                        android:valueFrom="1"
+                        android:valueTo="5"
+                        app:thumbColor="@color/secondary"
+                        app:trackColor="@color/secondary" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvODogs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="8dp"
+                        android:paddingTop="10dp"
+                        android:paddingEnd="8dp"
+                        android:text="Dog-Friendly: "
+                        android:textSize="20sp" />
+
+                    <com.google.android.material.slider.Slider
+                        android:layout_marginHorizontal="50dp"
+                        android:id="@+id/slDog"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="-5dp"
+                        android:enabled="false"
+                        android:value="1"
+                        android:valueFrom="1"
+                        android:valueTo="5"
+                        app:thumbColor="@color/secondary"
+                        app:trackColor="@color/secondary" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvPlayful"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="8dp"
+                        android:paddingTop="10dp"
+                        android:paddingEnd="8dp"
+                        android:text="Playfulness: "
+                        android:textSize="20sp" />
+
+
+                    <com.google.android.material.slider.Slider
+                        android:layout_marginHorizontal="50dp"
+                        android:id="@+id/slPlayful"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="-5dp"
+                        android:enabled="false"
+                        android:value="1"
+                        android:valueFrom="1"
+                        android:valueTo="5"
+                        app:thumbColor="@color/secondary"
+                        app:trackColor="@color/secondary" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvProtective"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="8dp"
+                        android:paddingTop="10dp"
+                        android:paddingEnd="8dp"
+                        android:text="Protectiveness: "
+                        android:textSize="20sp" />
+
+
+                    <com.google.android.material.slider.Slider
+                        android:id="@+id/slProtective"
+                        android:layout_marginHorizontal="50dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="-5dp"
+                        android:enabled="false"
+                        android:value="1"
+                        android:valueFrom="1"
+                        android:valueTo="5"
+                        app:thumbColor="@color/secondary"
+                        app:trackColor="@color/secondary" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvTrain"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="8dp"
+                        android:paddingTop="10dp"
+                        android:paddingEnd="8dp"
+                        android:text="Trainability: "
+                        android:textSize="20sp" />
+
+
+                    <com.google.android.material.slider.Slider
+                        android:layout_marginHorizontal="50dp"
+                        android:id="@+id/slTrain"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="-5dp"
+                        android:enabled="false"
+                        android:value="1"
+                        android:valueFrom="1"
+                        android:valueTo="5"
+                        app:thumbColor="@color/secondary"
+                        app:trackColor="@color/secondary" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvBark"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="8dp"
+                        android:paddingTop="10dp"
+                        android:paddingEnd="8dp"
+                        android:text="Barking: "
+                        android:textSize="20sp" />
+
+
+                    <com.google.android.material.slider.Slider
+                        android:layout_marginHorizontal="50dp"
+                        android:id="@+id/slBark"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="-5dp"
+                        android:enabled="false"
+                        android:value="1"
+                        android:valueFrom="1"
+                        android:valueTo="5"
+                        app:thumbColor="@color/secondary"
+                        app:trackColor="@color/secondary" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnOk"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:paddingHorizontal="10dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/secondary"
+                android:text="HOME" />
+
+        </LinearLayout>
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animationView"
+            android:layout_width="556dp"
+            android:layout_height="886dp"
+            android:layout_gravity="center"
+            android:visibility="visible"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="cutedog.json"
+            app:lottie_loop="true" />
+
+    </FrameLayout>
+
+</ScrollView>

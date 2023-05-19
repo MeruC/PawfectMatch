@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/bottom_home"
+        android:icon="@drawable/home"
+        android:title="Home"
+        />
+    <item android:id="@+id/bottom_matcher"
+        android:icon="@drawable/heart"
+        android:title="Matcher"/>
+
+    <item android:id="@+id/bottom_book"
+        android:icon="@drawable/baseline_menu_book_24"
+        android:title="Encyclopedia"/>
+
+    <item android:id="@+id/bottom_random"
+        android:icon="@drawable/baseline_image_24"
+        android:title="Album"/>
+
+    <item android:id="@+id/bottom_logout"
+        android:icon="@drawable/logout"
+        android:title="Logout"/>
+
+
+</menu>
