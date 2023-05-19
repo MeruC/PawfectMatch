@@ -12,9 +12,8 @@ Tuazon, Jaira Midel A.
 
 Carmelo, Mel Vincent A.
 
-[![Now in Android: 55]          // Title
-(https://www.youtube.com/watch?v=n6TfQkgqh-I "Now in Android: 55")    // Video Link
 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=n6TfQkgqh-I)
 
 ![](vertopal_9a1bedd3e06f4dcb9455e8a27e885f03/media/image1.png)
 ![](vertopal_9a1bedd3e06f4dcb9455e8a27e885f03/media/image2.png)
